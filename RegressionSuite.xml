@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Test For Sprii UAE Website" verbose="1" >
+
+    <test name="Sprii Regression Suite">
+        <classes>
+            <class name="com.sprii.regressionTestSuite.FooterTest"/>
+            <class name="com.sprii.regressionTestSuite.ForgotYourPasswordTest"/>
+            <class name="com.sprii.regressionTestSuite.HeaderTest"/>
+            <class name="com.sprii.regressionTestSuite.HomePageTest"/>
+            <class name="com.sprii.regressionTestSuite.LoginPageTest"/>
+            <class name="com.sprii.regressionTestSuite.MiniCartPageTest"/>
+            <class name="com.sprii.regressionTestSuite.MyAccountTest"/>
+            <class name="com.sprii.regressionTestSuite.ProductDetailPageTest"/>
+            <class name="com.sprii.regressionTestSuite.ProductListingPageTest"/>
+            <class name="com.sprii.regressionTestSuite.ShoppingCartPageTest"/>
+            <class name="com.sprii.regressionTestSuite.UserRegisterTest"/>
+        </classes>
+    </test>
+</suite>
